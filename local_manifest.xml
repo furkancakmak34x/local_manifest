@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+ <remote  name="fr"
+           fetch="https://github.com/furkancakmak34x/" />
  <!-- Trees -->
- <project path="device/google/taimen" name="furkancakmak34x/android_device_google_taimen.git" remote="github" revision="arrow-13.0" />
- <project path="vendor/google/taimen" name="furkancakmak34x/propietary_vendor_google_taimen.git" remote="github" revision="arrow-13.0" />
- <project path="kernel/google/wahoo" name="furkancakmak34x/android_kernel_google_wahoo.git" remote="github" revision="arrow-13.0" />
+ <project path="device/google/taimen" name="android_device_google_taimen" remote="fr" revision="arrow-13.0" />
+ <project path="vendor/google/taimen" name="propietary_vendor_google_taimen" remote="fr" revision="arrow-13.0" />
+ <project path="kernel/google/wahoo" name="android_kernel_google_wahoo" remote="fr" revision="arrow-13.0" />
  
 </manifest>
